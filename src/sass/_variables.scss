@@ -1,0 +1,171 @@
+// Fonts
+$font-family-sans-serif: "Rajdhani", "Helvetica Neue", Arial, sans-serif;
+
+/*** Colors ***/
+$yellow: #fdd73e;
+$white: #fff;
+$black: #000;
+$black-light: #262626;
+$red: #d9534f;
+$gray-dark: #22242c;
+$gray: #ccc;
+
+// Theme colors ($primary - main color of the site)
+$primary: $yellow;
+$danger: $red;
+$light: rgba($white, .02);
+$dark: $gray-dark;
+
+// Body colors
+$body-bg: $black-light;
+$body-color: $white;
+
+// Spacers
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.25),
+    5: ($spacer * 1.5),
+    6: ($spacer * 2),
+    7: ($spacer * 2.5)
+);
+
+// Layout
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1439px
+);
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 950px,
+    xl: 1170px
+);
+
+// Components
+$font-size-base: 1.25rem;
+$font-weight-normal: 500;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+$line-height-base: 1.4;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 1.2;
+$h3-font-size: $font-size-base;
+$h4-font-size: $font-size-base;
+$h5-font-size: $font-size-base;
+
+$headings-font-weight: 700;
+$headings-line-height: 1.3;
+
+$lead-font-size: $font-size-base * 1.4;
+$lead-font-weight: 500;
+
+$paragraph-margin-bottom: .6rem;
+
+// Links
+$link-color: $white;
+$link-decoration: underline;
+$link-hover-color: $primary;
+$link-hover-decoration: underline;
+
+// Navbar
+$navbar-dark-color: $gray;
+$navbar-dark-hover-color: #ffd900;
+$navbar-dark-active-color: #ffd900;
+$navbar-nav-link-padding-x: 1.26rem;
+
+// Buttons
+$btn-border-width: 0;
+$btn-font-size: 1rem;
+
+// Close
+$close-font-size: 2.5rem;
+$close-font-weight: 500;
+$close-color: $black-light;
+$close-text-shadow: none;
+
+// Modal
+$modal-dialog-margin: 15px;
+$modal-dialog-margin-y-sm-up: 1.75rem;
+$modal-inner-padding: .625rem;
+
+$modal-footer-margin-between: .5rem;
+
+$modal-content-color: $gray-dark;
+$modal-content-border-width: 0;
+$modal-content-border-radius: 0;
+$modal-content-inner-border-radius: 0;
+$modal-content-box-shadow-xs: none;
+$modal-content-box-shadow-sm-up: none;
+
+$modal-backdrop-bg: $black-light;
+$modal-backdrop-opacity: .9;
+$modal-header-border-width: 0;
+$modal-footer-border-width: 0;
+
+$modal-lg: 760px;
+
+// Forms
+$form-group-margin-bottom: .75rem;
+$label-margin-bottom: .32rem;
+
+$input-padding-y: .5rem;
+$input-padding-x: .5rem;
+$input-font-size: 1.25rem;
+$input-font-weight: 500;
+
+$input-bg: #FDFDFD;
+
+$input-border-color: #D1D0D0;
+$input-box-shadow: inset 0 1px 1px rgba($black, .075);
+
+$input-border-radius: 2px;
+
+$input-focus-bg: $input-bg;
+$input-focus-border-color: $yellow;
+$input-focus-color: #000;
+$input-focus-width: 0;
+$input-focus-box-shadow: 0 0 0 0;
+
+$input-placeholder-color: $gray;
+$input-plaintext-color: $body-color;
+
+$form-check-input-margin-y: .2rem;
+
+// Carousel
+$carousel-control-color: $white;
+$carousel-control-width: 15%;
+$carousel-control-opacity: .5;
+$carousel-control-hover-opacity: .9;
+
+$carousel-indicator-width: 8px;
+$carousel-indicator-height: 8px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer: 4px;
+$carousel-indicator-active-bg: $white;
+$carousel-indicator-transition: opacity .6s ease;
+
+$carousel-control-icon-width: 34px;
+
+$carousel-transition-duration: .4s;
+
+$carousel-control-prev-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='#{$carousel-control-color}' width='22' height='34' viewBox='0 0 22 34'><path d='M21.333 30.005L8.357 17 21.333 3.995 17.338 0l-17 17 17 17z'/></svg>");
+$carousel-control-next-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='#{$carousel-control-color}' width='22' height='34' viewBox='0 0 22 34'><path d='m.338 3.995 12.977 13.005-12.977 13.005 3.995 3.995 17-17-17-17z'/></svg>");
+
+// Transitions
+$transition-custom: .15s ease-in-out;
+$transition-custom-nav: .3s ease-in-out;
+
+// Borders
+$border-radius: 2px;
+$border-light: 1px solid rgba($white,.05);
+$border-gray: 1px solid rgba($white,.1);

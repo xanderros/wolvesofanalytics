@@ -1,0 +1,12 @@
+{% macro quote(text,author,cite) %}
+<blockquote class="blockquote">
+  <p>
+    “{{ text }}”
+    <svg class="b-quote b-quote_end" width="64" height="52"><use xlink:href="/icons/sprite.svg#icon-quote"></use></svg>
+  </p>
+  <footer class="blockquote-footer">
+    {{ author }}
+    <cite title="Source Title">{{ cite }}</cite>
+  </footer>
+</blockquote>
+{% endmacro %}

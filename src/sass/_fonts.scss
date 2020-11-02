@@ -1,0 +1,32 @@
+// Fonts
+$font-path: '/fonts';
+
+/* Rajdhani Medium */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url($font-path + '/Rajdhani-latin-medium.woff2') format('woff2'),
+       url($font-path + '/Rajdhani-latin-medium.woff') format('woff');
+}
+
+/* Rajdhani SemiBold */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url($font-path + '/Rajdhani-latin-semibold.woff2') format('woff2'),
+       url($font-path + '/Rajdhani-latin-semibold.woff') format('woff');
+}
+
+/* Rajdhani Bold */
+@font-face {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url($font-path + '/Rajdhani-latin-bold.woff2') format('woff2'),
+       url($font-path + '/Rajdhani-latin-bold.woff') format('woff');
+}
